@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Título da página</title>
+
+    <!-- SEO básico -->
+    <meta name="description" content="Descrição breve da página." />
+
+    <!-- Favicons (substitua pelos seus arquivos) -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:title" content="Título da página" />
+    <meta property="og:description" content="Descrição breve da página." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://exemplo.com" />
+    <meta property="og:image" content="https://exemplo.com/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Principal">
+        <a href="/" class="logo">Logo</a>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="conteudo" tabindex="-1">
+      <h1>Boilerplate HTML</h1>
+      <p>Comece por aqui. Remova o que não precisar.</p>
+    </main>
+
+    <footer>
+      <small>&copy; <span id="ano"></span> Seu Nome</small>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+      // Exemplo simples: atualiza o ano no rodapé
+      document.getElementById("ano").textContent = new Date().getFullYear();
+    </script>
+    <script src="/js/main.js" defer></script>
+  </body>
+</html>
